@@ -39,7 +39,7 @@ button:hover {
 .section-two {
   background-color: rgba(255, 255, 255, 0.2);
   width: 15.625rem;
-  height: 25rem;
+  height: 410px;
   border-top-right-radius: 0.625rem;
   border-bottom-right-radius: 0.625rem;
   padding: 0 1.25rem;
@@ -48,8 +48,17 @@ button:hover {
   border: 0.0625rem solid #ffffff;
   height: 6.5625rem;
   border-radius: 0.625rem;
+  padding: 5px 1.25rem;
+  box-sizing: border-box;
+}
+button.restartGame{
+  border: 0.0625rem solid #ffffff;
+  width: 250px;
+  height: 82px;
+  border-radius: 5px;
   padding: 0.625rem 1.25rem;
   box-sizing: border-box;
+  background-color: transparent;
 }
 footer {
   text-align: center;

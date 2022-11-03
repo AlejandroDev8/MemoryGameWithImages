@@ -20,6 +20,9 @@ numbers = numbers.sort(() => {
   return Math.random() - 0.5;
 });
 //Functions
+function restartGame() {
+  location.href = location.href;
+}
 function countTime() {
   countdownTime = setInterval(() => {
     time--;
@@ -27,7 +30,6 @@ function countTime() {
     if (time == 0) {
       clearInterval(countdownTime);
       blockCards();
-      loseAudio.play();
     }
   }, 1000);
 }
